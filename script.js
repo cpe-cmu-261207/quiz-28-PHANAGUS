@@ -6,7 +6,6 @@ const pname = document.getElementById("p-name");
 const pemail = document.getElementById("p-email");
 const paddress = document.getElementById("p-address");
 
-// const axios = require("axios");
 async function callApi() {
   try {
     const resp = await axios.get("https://randomuser.me/api/");
